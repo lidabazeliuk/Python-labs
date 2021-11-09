@@ -9,4 +9,4 @@ def number_of_Fibonacci(x):
         return number_of_Fibonacci(x-1) + number_of_Fibonacci(x - 2)
 
 result = number_of_Fibonacci(3) + number_of_Fibonacci(8)
-print('result = ',result)
+print('result = {0}'.format(result))
