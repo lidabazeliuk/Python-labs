@@ -9,7 +9,7 @@ if len(first_vect) == len(second_vect):
 
     for i in range(len(first_vect)):
 
-        sum += first_vect[i] + second_vect[i]
+        sum = first_vect[i] + second_vect[i]
 
         vect.append(sum)
 
